@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>SandboxSim</title>
+    <link>https://linzj.github.io/sandboxsim-site/</link>
+    <description>SandboxSim updates, read by Sparkle in the app. tools/publish-release.sh in the app's repository adds the items.</description>
+    <language>zh-cn</language>
+    <!-- items, newest first -->
+  </channel>
+</rss>
