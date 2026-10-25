@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SandboxSim: a clean macOS in seconds</title>
+<meta name="description" content="SandboxSim starts an isolated macOS virtual machine from the system already installed on your Mac. No installer to download; a new machine starts at about 0.5 GB.">
+<link rel="icon" href="../favicon.png">
+<link rel="alternate" hreflang="zh-Hans" href="../">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="../icon.png" alt="">SandboxSim</a>
+    <nav>
+      <a class="opt" href="#features">Features</a>
+      <a class="opt" href="#requirements">Requirements</a>
+      <a href="#pricing">Pricing</a>
+      <a class="opt" href="#faq">FAQ</a>
+      <a href="../" lang="zh-Hans">简体中文</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero wrap">
+  <img src="../icon.png" alt="SandboxSim icon">
+  <div class="badge">Public beta · version 1.0 coming soon</div>
+  <h1>A clean macOS, in seconds</h1>
+  <p class="lead">SandboxSim starts an isolated macOS virtual machine from the system already installed on your Mac. There is no installer to download, a new machine starts at about 0.5 GB, and you delete it when you are done.</p>
+  <div class="actions">
+    <a class="btn primary" href="#pricing">Pricing</a>
+    <a class="btn ghost" href="https://github.com/linzj/sandboxsim-site/issues">Support</a>
+  </div>
+</section>
+
+<section class="block" id="features">
+  <div class="wrap">
+    <h2>Features</h2>
+    <p class="sub">A real macOS, isolated from your Mac, without installing one from scratch.</p>
+    <div class="grid">
+      <div class="card"><h3>No download</h3><p>SandboxSim uses the macOS on this Mac. The first time, it makes a template in about 35 seconds; every new machine starts from it.</p></div>
+      <div class="card"><h3>Small on disk</h3><p>System files are shared read-only with your Mac, so a new machine starts at about 0.5 GB and keeps only your changes.</p></div>
+      <div class="card"><h3>Follows your updates</h3><p>When your Mac updates macOS, each machine adapts to the new version before it starts, leaving your data alone. You can roll back.</p></div>
+      <div class="card"><h3>Shared folders</h3><p>Give a machine folders from your Mac, read-write or read-only. Changes on your Mac show up in the machine at once.</p></div>
+      <div class="card"><h3>Clipboard and Touch ID</h3><p>The clipboard syncs both ways. When the machine asks for an administrator, approve with your Mac's Touch ID.</p></div>
+      <div class="card"><h3>Ready to use</h3><p>Networking, accelerated graphics, keyboard and mouse, and input methods work out of the box. Set the CPU count, memory and resolution.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="uses">
+  <div class="wrap narrow">
+    <h2>What it is for</h2>
+    <ul class="list">
+      <li><strong>Trying software you do not trust</strong> without touching your Mac's files and settings.</li>
+      <li><strong>Testing on a fresh system:</strong> installers, first launch, permission prompts.</li>
+      <li><strong>Testing side by side</strong> with different accounts and settings.</li>
+      <li><strong>A clean environment for a moment,</strong> deleted when you are done.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="requirements">
+  <div class="wrap narrow">
+    <h2>Requirements and limits</h2>
+    <ul class="list">
+      <li>A Mac with Apple silicon (M-series).</li>
+      <li>macOS 26 or later.</li>
+      <li>The machine runs the same macOS version as your Mac; other versions cannot be installed.</li>
+      <li>No sound and no USB device passthrough yet.</li>
+      <li>Apple's macOS software license agreement allows up to two virtual copies of macOS on a Mac, for software development, testing, and personal non-commercial use. Please use SandboxSim within those terms.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="pricing">
+  <div class="wrap">
+    <h2 style="text-align:center">Pricing</h2>
+    <p class="sub" style="text-align:center">Pay once. No subscription.</p>
+    <div class="price">
+      <div class="tag">Launch price</div>
+      <p class="amount">US$14<small>US$24</small></p>
+      <p class="usd">¥98, regular price ¥168</p>
+      <ul>
+        <li>A perpetual licence</li>
+        <li>12 months of updates, including support for new macOS versions</li>
+        <li>Activate on 2 Macs of your own</li>
+        <li>Full refund within 14 days, no questions asked</li>
+      </ul>
+      <a class="btn primary" aria-disabled="true">Available soon</a>
+    </div>
+    <p class="fine">After the update period, the versions you downloaded keep working, but a new major macOS release usually needs a newer SandboxSim; you can renew updates then. The public beta is free to try. Beta builds expire on a set date; your machines and their data stay.</p>
+  </div>
+</section>
+
+<section class="block" id="faq">
+  <div class="wrap narrow">
+    <h2>Questions</h2>
+    <details>
+      <summary>Does it change my Mac?</summary>
+      <p>No. SandboxSim does not modify the system on your Mac and does not ask for an administrator password. Machines live in ~/Library/Application Support/SandboxSim; deleting a machine deletes its files.</p>
+    </details>
+    <details>
+      <summary>Can a machine see my files?</summary>
+      <p>No, unless you share a folder with it in its settings. A shared folder can be read-only.</p>
+    </details>
+    <details>
+      <summary>How is it different from other virtual machine apps?</summary>
+      <p>A usual macOS virtual machine downloads an installer of more than 10 GB and installs a whole system, tens of GB per machine. SandboxSim reuses your Mac's system, so a machine is ready in seconds and small enough to make and throw away often. The trade-off: it runs only the macOS version your Mac runs.</p>
+    </details>
+    <details>
+      <summary>What happens when I update macOS?</summary>
+      <p>Before a machine first starts on the new version, SandboxSim adapts it, without touching your data inside; you can roll back in its settings. A new major macOS release may need an update of SandboxSim first.</p>
+    </details>
+    <details>
+      <summary>Something went wrong. What now?</summary>
+      <p>Export a diagnostics report from the app and <a href="https://github.com/linzj/sandboxsim-site/issues">open an issue on GitHub</a> with the report, your Mac model and macOS version. The report is made only when you export it, and you decide whether to send it.</p>
+    </details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="../terms.html#en">Terms</a>
+      <a href="../privacy.html#en">Privacy</a>
+      <a href="../refund.html#en">Refunds</a>
+      <a href="https://github.com/linzj/sandboxsim-site/issues">Support</a>
+      <a href="../" lang="zh-Hans">简体中文</a>
+    </div>
+    <p>© 2026 linzj. macOS, Mac and Touch ID are trademarks of Apple Inc. SandboxSim is independent software and is not affiliated with Apple Inc.</p>
+  </div>
+</footer>
+</body>
+</html>

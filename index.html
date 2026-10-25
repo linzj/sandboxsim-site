@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SandboxSim：几十秒开一台干净的 macOS</title>
+<meta name="description" content="SandboxSim 用你这台 Mac 已经装好的系统，启动一台隔离的 macOS 虚拟机。不用下载安装包，新机器约 0.5 GB 起，用完就删。">
+<link rel="icon" href="favicon.png">
+<link rel="alternate" hreflang="en" href="en/">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="icon.png" alt="">SandboxSim</a>
+    <nav>
+      <a class="opt" href="#features">功能</a>
+      <a class="opt" href="#requirements">系统要求</a>
+      <a href="#pricing">价格</a>
+      <a class="opt" href="#faq">常见问题</a>
+      <a href="en/" lang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero wrap">
+  <img src="icon.png" alt="SandboxSim 图标">
+  <div class="badge">公开测试中 · 1.0 正式版即将推出</div>
+  <h1>几十秒，开一台干净的 macOS</h1>
+  <p class="lead">SandboxSim 用你这台 Mac 已经装好的系统，启动一台隔离的 macOS 虚拟机。不用下载安装包，新机器约 0.5 GB 起，用完就删。</p>
+  <div class="actions">
+    <a class="btn primary" href="#pricing">价格与购买</a>
+    <a class="btn ghost" href="https://github.com/linzj/sandboxsim-site/issues">问题反馈</a>
+  </div>
+</section>
+
+<section class="block" id="features">
+  <div class="wrap">
+    <h2>功能</h2>
+    <p class="sub">一台真正的 macOS，和主机隔离，又不必从头安装。</p>
+    <div class="grid">
+      <div class="card"><h3>不用下载系统</h3><p>直接使用这台 Mac 上的 macOS。第一次使用时生成模板，大约 35 秒；之后每台新机器都从模板开始。</p></div>
+      <div class="card"><h3>占用很小</h3><p>系统文件以只读方式与主机共用，新机器约 0.5 GB 起，只保存你在里面做的改动。</p></div>
+      <div class="card"><h3>跟着主机更新</h3><p>主机升级 macOS 后，虚拟机开机前会自动适配新版本，不动你在里面的数据；不满意可以回退。</p></div>
+      <div class="card"><h3>共享文件夹</h3><p>把主机上的文件夹以读写或只读方式交给虚拟机，主机上的改动会即时出现在虚拟机里。</p></div>
+      <div class="card"><h3>剪贴板与 Touch ID</h3><p>剪贴板在主机和虚拟机之间双向同步；虚拟机里需要管理员授权时，可以用主机的 Touch ID 确认。</p></div>
+      <div class="card"><h3>开箱即用</h3><p>自带网络、图形加速、键盘鼠标和中文输入法；可以设置 CPU 核数、内存和分辨率。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="uses">
+  <div class="wrap narrow">
+    <h2>适合做什么</h2>
+    <ul class="list">
+      <li><strong>试装来路不明的软件</strong>，不碰主机上的文件和设置。</li>
+      <li><strong>在全新的系统里测试</strong>安装包、首次启动流程和权限弹窗。</li>
+      <li><strong>并行测试</strong>不同的账户和设置。</li>
+      <li><strong>临时要一个干净的环境</strong>，用完直接删除。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="requirements">
+  <div class="wrap narrow">
+    <h2>系统要求和限制</h2>
+    <ul class="list">
+      <li>Apple 芯片（M 系列）的 Mac。</li>
+      <li>macOS 26 或更高版本。</li>
+      <li>虚拟机里运行的 macOS 和主机是同一个版本，不能安装其他版本。</li>
+      <li>暂不支持声音和 USB 设备直通。</li>
+      <li>根据苹果的 macOS 软件许可协议，一台 Mac 上最多可以运行两份 macOS 虚拟副本，用途限于软件开发、测试和个人非商业使用。请按协议使用。</li>
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="pricing">
+  <div class="wrap">
+    <h2 style="text-align:center">价格</h2>
+    <p class="sub" style="text-align:center">一次购买，不是订阅。</p>
+    <div class="price">
+      <div class="tag">首发优惠</div>
+      <p class="amount">¥98<small>¥168</small></p>
+      <p class="usd">约 US$14，原价约 US$24</p>
+      <ul>
+        <li>永久使用许可</li>
+        <li>含 12 个月的版本更新，包括对新 macOS 版本的适配</li>
+        <li>可以在你自己的 2 台 Mac 上激活</li>
+        <li>14 天内无理由退款</li>
+      </ul>
+      <a class="btn primary" aria-disabled="true">即将开放购买</a>
+    </div>
+    <p class="fine">更新期结束后，已经下载的版本可以继续使用；但新的 macOS 大版本通常需要新版 SandboxSim 才能运行，届时可以续购更新。公开测试期间可以免费试用，测试版有到期日，到期后虚拟机和其中的数据都会保留。</p>
+  </div>
+</section>
+
+<section class="block" id="faq">
+  <div class="wrap narrow">
+    <h2>常见问题</h2>
+    <details>
+      <summary>会改动我的 Mac 吗？</summary>
+      <p>不会。SandboxSim 不修改主机上的系统，也不需要管理员密码。虚拟机的文件都存放在 ~/Library/Application Support/SandboxSim 里，删除虚拟机就会一并删掉。</p>
+    </details>
+    <details>
+      <summary>虚拟机能看到主机上的文件吗？</summary>
+      <p>看不到，除非你在虚拟机的设置里共享了某个文件夹。共享时可以选择只读。</p>
+    </details>
+    <details>
+      <summary>和其他虚拟机软件有什么不同？</summary>
+      <p>通常的 macOS 虚拟机要先下载十几 GB 的安装包，再安装一份完整的系统，每台占几十 GB。SandboxSim 直接复用主机的系统，几十秒开出一台，占用很小，适合频繁新建和丢弃。代价是只能运行和主机相同版本的 macOS。</p>
+    </details>
+    <details>
+      <summary>主机升级 macOS 之后还能用吗？</summary>
+      <p>能。新版本第一次开机前，SandboxSim 会自动适配，过程中不会动你在虚拟机里的数据；不满意可以在设置里回退。升级到新的 macOS 大版本时，可能需要先更新 SandboxSim。</p>
+    </details>
+    <details>
+      <summary>遇到问题怎么办？</summary>
+      <p>在 App 里导出诊断报告，然后<a href="https://github.com/linzj/sandboxsim-site/issues">在 GitHub 上提交 issue</a>，附上报告和你的 Mac 型号、macOS 版本。诊断报告只在你导出时生成，由你决定是否发送。</p>
+    </details>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="terms.html">使用条款</a>
+      <a href="privacy.html">隐私政策</a>
+      <a href="refund.html">退款政策</a>
+      <a href="https://github.com/linzj/sandboxsim-site/issues">问题反馈</a>
+      <a href="en/" lang="en">English</a>
+    </div>
+    <p>© 2026 linzj。macOS、Mac 和 Touch ID 是 Apple Inc. 的商标。SandboxSim 是独立开发的软件，与 Apple Inc. 没有关联。</p>
+  </div>
+</footer>
+</body>
+</html>
