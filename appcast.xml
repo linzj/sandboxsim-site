@@ -6,5 +6,20 @@
     <description>SandboxSim updates, read by Sparkle in the app. tools/publish-release.sh in the app's repository adds the items.</description>
     <language>zh-cn</language>
     <!-- items, newest first -->
+    <item>
+      <title>0.12</title>
+      <pubDate>Mon, 26 Oct 2026 01:21:13 +0000</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.12</h3>
+<ul>
+<li>下载后可以免费试用 14 天；购买许可证后，在“SandboxSim › 许可证…”里输入密钥即可激活。</li>
+<li>自动更新：以后有新版本会在 App 里提示。</li>
+<li>同时最多运行 2 台虚拟机，与 macOS 软件许可协议一致。</li>
+<li>修复：主机升级 macOS 后同时启动两台虚拟机，开机前的适配会失败。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.12/SandboxSim.dmg" sparkle:edSignature="CqnlShyw4IeoGurbT8VFe1sHbwhGDlejhrgzJqw9KSWOxjsO/B7a571xbCrrDKZFiVqNOduF+t0l3jgNEwzYDQ==" length="3381661" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
