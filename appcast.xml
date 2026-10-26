@@ -7,6 +7,21 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.13</title>
+      <pubDate>Mon, 26 Oct 2026 07:15:42 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.13</h3>
+<ul>
+<li>试用的开始日期改由许可证服务器记录，开始试用时需要联网一次。</li>
+<li>许可证每天自动联网核验一次，离线最多可以使用 7 天；超过 7 天，联网后在“SandboxSim › 许可证…”里点“重新验证”即可。</li>
+<li>Mac 的时间被调早时，会提示先把时间改正确，再重新验证。</li>
+<li>同一个许可证 30 天内最多可以停用 3 次。</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.13/SandboxSim.dmg" sparkle:edSignature="9eXGkQHr8ZSijSp2S9Zs1WGVYY/P0xyE8xnzWWJyKSdvsnMRw3yA2qkqUIUJqZJ75T0eZXU/pRu1NkCULOXqDg==" length="11393617" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.12</title>
       <pubDate>Mon, 26 Oct 2026 01:21:13 +0000</pubDate>
       <sparkle:version>12</sparkle:version>
