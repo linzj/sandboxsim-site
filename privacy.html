@@ -26,8 +26,8 @@
 <h2>App 什么时候联网</h2>
 <ul>
   <li><strong>获取启动文件：</strong>如果这台 Mac 上缺少当前 macOS 版本的虚拟机启动文件，App 会查询苹果的服务器（mesu.apple.com）和 ipsw.me，找到包含该版本的安装包，然后只从苹果的服务器下载需要的那一部分。这些请求带有 Mac 的型号标识（例如 Mac16,1）和 macOS 版本号，不包含你的个人信息。</li>
-  <li><strong>激活许可证（正式版）：</strong>激活和定期核验时，App 会把许可证密钥和一个随机生成的设备标识发送给我们的经销商。</li>
-  <li><strong>检查更新（正式版）：</strong>App 会从本网站读取新版本的信息。</li>
+  <li><strong>激活许可证：</strong>激活、每周核验和停用时，App 会把许可证密钥、Mac 的型号标识和一个设备标识发送给我们的许可证服务器（运行在 Cloudflare 上），由它向经销商 Creem 核验。设备标识是由这台 Mac 的硬件 UUID 计算出的哈希值，不能反推出硬件 UUID，只用来区分你的不同 Mac。</li>
+  <li><strong>检查更新：</strong>App 每天从本网站读取一次新版本的信息（Sparkle），不发送任何个人信息。</li>
   <li><strong>虚拟机的网络：</strong>虚拟机里的程序和主机上的其他程序一样，经由你的 Mac 上网。这些流量不经过我们。</li>
 </ul>
 
@@ -53,8 +53,8 @@
 <h2>When the app goes online</h2>
 <ul>
   <li><strong>Boot files:</strong> if this Mac lacks the virtual machine boot files for its macOS version, the app asks Apple's servers (mesu.apple.com) and ipsw.me which installer holds that version, then downloads only the part it needs from Apple's servers. These requests carry the Mac's model identifier (such as Mac16,1) and macOS version, and no personal information.</li>
-  <li><strong>Licence activation (paid version):</strong> on activation and periodic checks, the app sends the licence key and a randomly generated device identifier to our reseller.</li>
-  <li><strong>Update checks (paid version):</strong> the app reads information about new versions from this website.</li>
+  <li><strong>Licences:</strong> when you activate, deactivate, and once a week, the app sends the licence key, the Mac's model identifier and a device identifier to our licence server (on Cloudflare), which checks them with our reseller, Creem. The device identifier is a hash of the Mac's hardware UUID; the UUID cannot be recovered from it, and it serves only to tell your Macs apart.</li>
+  <li><strong>Update checks:</strong> once a day the app reads information about new versions from this website (Sparkle), sending no personal information.</li>
   <li><strong>The machines' network:</strong> programs inside a machine go online through your Mac like any other app. That traffic does not pass through us.</li>
 </ul>
 
