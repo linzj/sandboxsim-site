@@ -7,6 +7,22 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.16</title>
+      <pubDate>Tue, 27 Oct 2026 02:55:22 +0000</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.16</h3>
+<ul>
+<li>内部改进，功能与 0.15 相同。</li>
+</ul>
+<h3>SandboxSim 0.16 (English)</h3>
+<ul>
+<li>Internal improvements; no change in features.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.16/SandboxSim.dmg" sparkle:edSignature="u/NOVpZsp0h1wGOhHK06cVAPd2rKknhhxYo18g27ozr9MHvC1CzmdSKPyomTojJeO11kU2LHBPPgz8u85sdtDg==" length="8797227" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.15</title>
       <pubDate>Tue, 27 Oct 2026 01:50:35 +0000</pubDate>
       <sparkle:version>15</sparkle:version>
