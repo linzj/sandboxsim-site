@@ -33,6 +33,10 @@
     <a class="btn primary" href="https://github.com/linzj/sandboxsim-site/releases/latest/download/SandboxSim.dmg">下载，免费试用</a>
     <a class="btn ghost" href="#pricing">价格与购买</a>
   </div>
+  <figure class="demo">
+    <video src="demo.mp4" poster="demo-poster.jpg" width="1280" height="760" autoplay muted loop playsinline preload="metadata" aria-label="新建一台虚拟机，从窗口打开到设置助理出现的实录"></video>
+    <figcaption>实录，未加速：新建一台虚拟机，21 秒到设置助理。</figcaption>
+  </figure>
 </section>
 
 <section class="block" id="features">
@@ -140,5 +144,10 @@
     <p>© 2026 linzj。macOS、Mac 和 Touch ID 是 Apple Inc. 的商标。SandboxSim 是独立开发的软件，与 Apple Inc. 没有关联。</p>
   </div>
 </footer>
+<script>
+if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  for (const v of document.querySelectorAll(".demo video")) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; }
+}
+</script>
 </body>
 </html>

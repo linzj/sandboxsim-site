@@ -33,6 +33,10 @@
     <a class="btn primary" href="https://github.com/linzj/sandboxsim-site/releases/latest/download/SandboxSim.dmg">Download the free trial</a>
     <a class="btn ghost" href="#pricing">Pricing</a>
   </div>
+  <figure class="demo">
+    <video src="../demo.mp4" poster="../demo-poster.jpg" width="1280" height="760" autoplay muted loop playsinline preload="metadata" aria-label="A new machine, from its window opening to Setup Assistant, recorded live"></video>
+    <figcaption>Recorded live, not sped up: a new machine reaches Setup Assistant in 21 seconds.</figcaption>
+  </figure>
 </section>
 
 <section class="block" id="features">
@@ -140,5 +144,10 @@
     <p>© 2026 linzj. macOS, Mac and Touch ID are trademarks of Apple Inc. SandboxSim is independent software and is not affiliated with Apple Inc.</p>
   </div>
 </footer>
+<script>
+if (matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  for (const v of document.querySelectorAll(".demo video")) { v.removeAttribute("autoplay"); v.pause(); v.controls = true; }
+}
+</script>
 </body>
 </html>
