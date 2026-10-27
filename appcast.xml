@@ -7,6 +7,23 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.15</title>
+      <pubDate>Tue, 27 Oct 2026 01:50:35 +0000</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.15</h3>
+<ul>
+<li>新增英文界面：系统语言为英文时显示英文，其他非中文语言也显示英文；中文系统不变。</li>
+<li>中文系统下，app 自带的系统菜单（关于、退出等）也改为中文。</li>
+</ul>
+<h3>SandboxSim 0.15 (English)</h3>
+<ul>
+<li>SandboxSim is now available in English. The app follows your Mac's language: English, or Chinese on a Chinese system.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.15/SandboxSim.dmg" sparkle:edSignature="QJJWocYAbp45qKDft7KvTghPA3W2nAKK/WouXNUwn8lUyJwZWIkJ7CXWHCzAYU/udV8hPHuX/gUjWKgPGRbtAg==" length="11464634" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.14</title>
       <pubDate>Tue, 27 Oct 2026 00:37:26 +0000</pubDate>
       <sparkle:version>14</sparkle:version>
