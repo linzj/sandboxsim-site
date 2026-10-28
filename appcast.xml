@@ -28,25 +28,5 @@
 </ul>]]></description>
       <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.18/SandboxSim.dmg" sparkle:edSignature="nsElDzlEb6KJvAQ22JbewL0Bl5y0vwTvvYGAV6aPXwzNdO/hmmMwtnqw2ym/+f8k7bDbMcvW/T6IwnV22k/+DA==" length="8811301" type="application/octet-stream"/>
     </item>
-    <item>
-      <title>0.17</title>
-      <pubDate>Tue, 27 Oct 2026 05:46:43 +0000</pubDate>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>0.17</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<h3>SandboxSim 0.17</h3>
-<ul>
-<li>模板在后台更新时显示进度；新建虚拟机等模板更新时，也能看到进度。</li>
-<li>以后更新 SandboxSim，模板和已有的虚拟机不必每次都重新准备。装上 0.17 后还会最后准备一次。</li>
-<li>内部改进。</li>
-</ul>
-<h3>SandboxSim 0.17 (English)</h3>
-<ul>
-<li>The template shows its progress while it updates in the background, and so does a new virtual machine waiting for it.</li>
-<li>Later updates of SandboxSim no longer prepare the template and existing virtual machines again each time. After installing 0.17 they are prepared once more.</li>
-<li>Internal improvements.</li>
-</ul>]]></description>
-      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.17/SandboxSim.dmg" sparkle:edSignature="az886R2ZVUXc5YILWYFegdTgl+uJgLI260P/HzlLPHgyHfLRlI8X7eda0G1gqlhI/fTnftKkpxa27cnrs1VmCg==" length="8789438" type="application/octet-stream"/>
-    </item>
   </channel>
 </rss>
