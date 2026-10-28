@@ -7,6 +7,28 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.18</title>
+      <pubDate>Wed, 28 Oct 2026 05:16:08 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.18</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.18</h3>
+<ul>
+<li>支持 macOS 27.2：升级到 27.2 后，虚拟机不再一直停在“正在启动”。</li>
+<li>Spotlight 能找到系统自带的应用了，“应用程序”视图会列出全部应用和 Safari。系统应用放在一块所有虚拟机共用的应用磁盘上，每个 macOS 版本只占一份空间。</li>
+<li>虚拟机如果在启动的最开始就停住，SandboxSim 会在 30 秒后停下它并说明原因，不再一直转圈。</li>
+<li>装上 0.18 后，已有的虚拟机第一次启动时会先适配一次；进入系统后，Spotlight 需要大约一分钟建立索引。</li>
+</ul>
+<h3>SandboxSim 0.18 (English)</h3>
+<ul>
+<li>Works with macOS 27.2: after updating to 27.2, virtual machines no longer stay at "starting" forever.</li>
+<li>Spotlight finds the built-in apps, and its Applications view lists all of them, Safari included. The system apps are on an apps disk that every virtual machine shares, so each macOS version stores them only once.</li>
+<li>A virtual machine that stops at the very start of its boot is stopped after 30 seconds with the reason shown, instead of spinning forever.</li>
+<li>After installing 0.18, existing virtual machines are prepared once at their next start; once you are in the system, Spotlight needs about a minute to build its index.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.18/SandboxSim.dmg" sparkle:edSignature="nsElDzlEb6KJvAQ22JbewL0Bl5y0vwTvvYGAV6aPXwzNdO/hmmMwtnqw2ym/+f8k7bDbMcvW/T6IwnV22k/+DA==" length="8811301" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.17</title>
       <pubDate>Tue, 27 Oct 2026 05:46:43 +0000</pubDate>
       <sparkle:version>17</sparkle:version>
