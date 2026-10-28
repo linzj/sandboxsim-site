@@ -74,6 +74,7 @@
       <li>macOS 26 or later.</li>
       <li>The machine runs the same macOS version as your Mac; other versions cannot be installed.</li>
       <li>No sound and no USB device passthrough yet.</li>
+      <li>You cannot sign in to an Apple Account in a machine, so iCloud, the App Store and other features that need one do not work.</li>
       <li>Apple's macOS software license agreement allows up to two virtual copies of macOS on a Mac, for software development, testing, and personal non-commercial use. Please use SandboxSim within those terms.</li>
     </ul>
   </div>
@@ -138,6 +139,10 @@
     <details>
       <summary>Can a machine see my files?</summary>
       <p>No, unless you share a folder with it in its settings. A shared folder can be read-only.</p>
+    </details>
+    <details>
+      <summary>Can I sign in to iCloud in a machine?</summary>
+      <p>No. Signing in to an Apple Account in a machine (iCloud, the App Store and so on) ends with a “Verification Failed” alert. Apple checks the device's identity at sign-in, and it provides that identity only to its own virtualization framework; SandboxSim runs its own virtual machine engine and cannot get it. To move files between your Mac and a machine, use a shared folder.</p>
     </details>
     <details>
       <summary>How is it different from other virtual machine apps?</summary>

@@ -74,6 +74,7 @@
       <li>macOS 26 或更高版本。</li>
       <li>虚拟机里运行的 macOS 和主机是同一个版本，不能安装其他版本。</li>
       <li>暂不支持声音和 USB 设备直通。</li>
+      <li>虚拟机里不能登录 Apple 账户，iCloud、App Store 等需要 Apple 账户的功能都用不了。</li>
       <li>根据苹果的 macOS 软件许可协议，一台 Mac 上最多可以运行两份 macOS 虚拟副本，用途限于软件开发、测试和个人非商业使用。请按协议使用。</li>
     </ul>
   </div>
@@ -138,6 +139,10 @@
     <details>
       <summary>虚拟机能看到主机上的文件吗？</summary>
       <p>看不到，除非你在虚拟机的设置里共享了某个文件夹。共享时可以选择只读。</p>
+    </details>
+    <details>
+      <summary>虚拟机里能登录 iCloud 吗？</summary>
+      <p>不能。在虚拟机里登录 Apple 账户（iCloud、App Store 等）会提示“验证失败，发生未知错误”。登录时苹果要核验设备身份，而这项身份只提供给苹果自己的虚拟化框架；SandboxSim 用的是自己的虚拟机引擎，拿不到。需要在主机和虚拟机之间传文件时，可以用共享文件夹。</p>
     </details>
     <details>
       <summary>和其他虚拟机软件有什么不同？</summary>
