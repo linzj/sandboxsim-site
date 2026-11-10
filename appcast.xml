@@ -7,6 +7,24 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.19</title>
+      <pubDate>Tue, 10 Nov 2026 00:37:27 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.19</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.19</h3>
+<ul>
+<li>许可证和试用期的检查更可靠。</li>
+<li>新建虚拟机的窗口里会说明：虚拟机里不能登录 Apple 账户，iCloud 和 App Store 都用不了。</li>
+</ul>
+<h3>SandboxSim 0.19 (English)</h3>
+<ul>
+<li>Licence and trial checks are more reliable.</li>
+<li>The new machine window now says that you can't sign in to an Apple Account in a machine, so iCloud and the App Store don't work.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.19/SandboxSim.dmg" sparkle:edSignature="fcFIba29VmkwO/bAVY273XviEfMSaBZxvD2uTrIUhxwh1y5YLnWMEJ1M5KHC9tlc9IoZl028qTG4c+4bRw1mAg==" length="8812751" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.18</title>
       <pubDate>Wed, 28 Oct 2026 05:16:08 +0000</pubDate>
       <sparkle:version>18</sparkle:version>
