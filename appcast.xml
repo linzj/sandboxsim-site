@@ -7,6 +7,24 @@
     <language>zh-cn</language>
     <!-- items, newest first -->
     <item>
+      <title>0.20</title>
+      <pubDate>Tue, 10 Nov 2026 01:20:45 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>0.20</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>SandboxSim 0.20</h3>
+<ul>
+<li>关闭了网络的虚拟机现在可以正常启动，不再一直停在“正在启动”。虚拟机里仍然没有网络。</li>
+<li>已知问题：关闭网络时，虚拟机里的时钟可能比实际时间慢，因为没有网络可以对时。</li>
+</ul>
+<h3>SandboxSim 0.20 (English)</h3>
+<ul>
+<li>A virtual machine with its network turned off now starts normally instead of staying at "starting" forever. It still has no network.</li>
+<li>Known issue: with the network off, the clock in the virtual machine can be behind the real time, since there is no network to set it from.</li>
+</ul>]]></description>
+      <enclosure url="https://github.com/linzj/sandboxsim-site/releases/download/v0.20/SandboxSim.dmg" sparkle:edSignature="7ZZW/VyCzW4qQs85w5AXC02j40hZdwUMiJzCxIKfDb85Q/uyuT17ieN/+niOz/P8pTy6qiGG9qHsUQzFfHAZAg==" length="8813311" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>0.19</title>
       <pubDate>Tue, 10 Nov 2026 00:37:27 +0000</pubDate>
       <sparkle:version>19</sparkle:version>
